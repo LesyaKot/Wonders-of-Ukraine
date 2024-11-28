@@ -28,6 +28,13 @@ body {
   background: #fafafa;
   margin-left: auto;
 }
+section {
+  margin: 0 auto;
+}
+/* .container {
+  padding-left: 16px;
+  padding-right: 16px;
+} */
 
 .hero-section {
   display: flex;

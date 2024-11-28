@@ -4,9 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/Wonder-of-Ukraine/",
-    "preview": "vite preview"
+    "build": "echo 'Static project: nothing to build'"
   },
   "devDependencies": {
     "glob": "^11.0.0",
@@ -14,9 +12,6 @@
     "postcss-sort-media-queries": "^5.2.0"
   },
   "author": "Lesya Kotkova",
-  "license": "ISC",
-  "dependencies": {
-    "vite-plugin-full-reload": "^1.2.0",
-    "vite-plugin-html-inject": "^1.1.2"
-  }
+  "license": "ISC"
+
 }
