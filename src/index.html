@@ -18,27 +18,109 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <!-- <link rel="stylesheet" href="/css/styles.css" /> -->
   </head>
+
+
   <body>
-    <main>
-      <!-- HERO -->
       <section class="hero-section">
+
+        <header class="header">
+
+          <div class="logo-cont">
+            <a class="logo" href="./index.html">
+              <svg class="icon-Logo" width="64" height="46">
+                <use href="./img/symbol-defs.svg#icon-Logo"></use>
+              </svg>
+            </a>
+          </div>
+
+          <div class="nav-cont">
+            <nav class="page-nav">
+              <ul class="menu-nav">
+                <li class="menu-item">
+                  <a class="menu-link" href="#about">About us</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link" href="#tours">Tours</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link" href="#contacts">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div>
+            <button class="mobile-menu-btn" type="button">
+              <svg class="mobile-menu-btn-icon" width="40" height="40">
+                <use href="./img/symbol-defs.svg#icon-ci_menu-alt-05"></use>
+              </svg>
+            </button>
+          </div>
+
+          <div class="mobile-menu">
+            <div class="container mobile-menu-cont">
+              <button class="mob-menu-nav-close-btn" type="button">
+                <svg class="mob-menu-nav-close-btn-icon" width="28" height="28">
+                  <use href="./images/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+              <nav class="mob-menu-nav">
+                <ul class="mob-menu-nav-list">
+                  <li class="menu-item">
+                    <a class="menu-link" href="#about">About us</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#tours">Tours</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="#contacts">Contacts</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+
         <div class="container">
           <h2 class="hero-title-small">Unlock the Wonders of</h2>
           <h1 class="hero-title">Ukraine</h1>
           <div class="hero-conteiner">
             <button class="main-button" type="button">Our tours</button>
-
-
-              <!-- <svg class="icon-hero" width="24" height="24">
-                <use href="./images/sprite.svg#icon-ok"></use>
-              </svg> -->
-            </a>
           </div>
         </div>
+
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-ph_instagram-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-ph_facebook-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-ph_telegram-logo"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
       </section>
     </main>
-
   </body>
 </html>
