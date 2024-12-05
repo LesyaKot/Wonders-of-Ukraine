@@ -1,34 +1,37 @@
-const gallery = document.querySelector('.gallery');
-const leftArrow = document.querySelector('.arrow-left');
-const rightArrow = document.querySelector('.arrow-right');
+document.querySelectorAll('.gallery-container').forEach((container) => {
+  const gallery = container.querySelector('.gallery');
+  const leftArrow = container.querySelector('.arrow-left');
+  const rightArrow = container.querySelector('.arrow-right');
 
-const scrollAmount = 400;
+  const scrollAmount = 375;
+  // const scrollAmount = 454;
 
-function updateArrowColors() {
-  const scrollLeft = gallery.scrollLeft;
-  const maxScrollLeft = gallery.scrollWidth - gallery.clientWidth;
+  function updateArrowColors() {
+    const scrollLeft = gallery.scrollLeft;
+    const maxScrollLeft = gallery.scrollWidth - gallery.clientWidth;
 
-  if (scrollLeft > 0) {
-    leftArrow.classList.add('active');
-  } else {
-    leftArrow.classList.remove('active');
+    if (scrollLeft > 0) {
+      leftArrow.classList.add('active');
+    } else {
+      leftArrow.classList.remove('active');
+    }
+
+    if (scrollLeft < maxScrollLeft) {
+      rightArrow.classList.add('active');
+    } else {
+      rightArrow.classList.remove('active');
+    }
   }
 
-  if (scrollLeft < maxScrollLeft) {
-    rightArrow.classList.add('active');
-  } else {
-    rightArrow.classList.remove('active');
-  }
-}
+  leftArrow.addEventListener('click', () => {
+    gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    updateArrowColors();
+  });
 
-leftArrow.addEventListener('click', () => {
-  gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  rightArrow.addEventListener('click', () => {
+    gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    updateArrowColors();
+  });
+
   updateArrowColors();
 });
-
-rightArrow.addEventListener('click', () => {
-  gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-  updateArrowColors();
-});
-
-updateArrowColors();
