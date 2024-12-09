@@ -25,7 +25,7 @@ button {
 }
 body {
   font-family: 'Jomolhari', sans-serif;
-  background: #fafafa;
+  background: #141a19;
   margin-left: auto;
 }
 section {
@@ -201,15 +201,12 @@ section {
     width: 100%;
     overflow-x: auto;
     white-space: nowrap;
-    /* padding: 10px; */
-    background-color: #141a19;
   }
   .gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     overflow: hidden;
-    /* gap: 10px; */
   }
   .img {
     width: 344px;
@@ -256,7 +253,9 @@ section {
 
   /* TOURS */
   .tours-section {
-    background-color: #141a19;
+    background-image: url('/src/img/koloso.png');
+    background-position: 10px  bottom;
+    background-repeat: no-repeat;
   }
   .tours-img {
     width: 375px;
@@ -336,6 +335,76 @@ section {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 32px;
+  }
+
+  /* REVIEWS */
+  .reviews-section {
+    margin-bottom: 180px;
+  }
+  .reviews-title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #fafafa;
+  }
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .reviews-item {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 16px;
+    border: 1px solid #fafafa;
+    padding: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .reviews-name {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 11px;
+  }
+  .reviews-svg {
+    fill: goldenrod;
+    width: 136px;
+    height: 24px;
+  }
+  .reviews-name,
+  .reviews-item {
+    max-width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  .rew-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    gap: 24px;
+  }
+  .name-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews-text {
+    height: 176px;
   }
 }
 
