@@ -347,15 +347,15 @@
   <p class="start-travel-text">If you want to get an unforgettable trip, quickly fill out the application and we will contact you during the day</p>
 <p class="start-travel-text">We are ready to answer any questions and help choose the best tour</p>
 
-<form class="start-travel-form">
-  <label class="start-travel-label">Name</label>
-    <input class="start-travel-input" placeholder="Enter your name"  type="text"  required>
-  <label class="start-travel-label">Phone </label>
-<input class="start-travel-input" placeholder="+380__-___-__-__"  required>
+<form class="start-travel-form" id="travelForm" action="mailto:lesyakot@i.ua" method="post" enctype="text/plain">
+  <label class="start-travel-label" for="name">Name</label>
+    <input class="start-travel-input" id="name" name="name" placeholder="Enter your name"  type="text"  required>
+  <label class="start-travel-label" for="phone">Phone </label>
+<input class="start-travel-input" id="phone" name="phone" placeholder="+380__-___-__-__"  required>
   <textarea class="start-travel-textaria" placeholder="Your message
   " type="text"></textarea>
 
-  <button class="start-travel-btn">Send</button>
+  <button class="start-travel-btn" type="submit">Send</button>
 </form>
 </div>
 

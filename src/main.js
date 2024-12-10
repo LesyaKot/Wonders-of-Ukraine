@@ -4,34 +4,33 @@ document.querySelectorAll('.gallery-container').forEach((container) => {
   const rightArrow = container.querySelector('.arrow-right');
 
   const scrollAmount = 375;
-  // const scrollAmount = 454;
 
   function updateArrowColors() {
     const scrollLeft = gallery.scrollLeft;
     const maxScrollLeft = gallery.scrollWidth - gallery.clientWidth;
 
-    if (scrollLeft > 0) {
-      leftArrow.classList.add('active');
-    } else {
-      leftArrow.classList.remove('active');
-    }
-
-    if (scrollLeft < maxScrollLeft) {
-      rightArrow.classList.add('active');
-    } else {
-      rightArrow.classList.remove('active');
-    }
+    leftArrow.classList.toggle('active', scrollLeft > 0);
+    rightArrow.classList.toggle('active', scrollLeft < maxScrollLeft);
   }
+
 
   leftArrow.addEventListener('click', () => {
     gallery.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-    updateArrowColors();
+    setTimeout(updateArrowColors, 300);
   });
 
   rightArrow.addEventListener('click', () => {
     gallery.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-    updateArrowColors();
+    setTimeout(updateArrowColors, 300);
   });
 
   updateArrowColors();
+});
+
+const form = document.getElementById('travelForm');
+
+form.addEventListener('submit', function (event) {
+  event.preventDefault();
+  form.reset();
+  alert('Thank you! Your application has been sent.');
 });
