@@ -47,7 +47,8 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1e1823;
+    /* background-color: #1e1823; */
+    background-image: url(/src/img/mobmenuimage.png);
     z-index: 99999999;
     transform: translateX(100%);
     transition: transform 250ms linear;
@@ -61,7 +62,8 @@ section {
     gap: 24px;
     align-items: start;
     justify-content: center;
-    padding: 136px 48px 518px 48px;
+
+
     margin-left: auto;
     margin-right: auto;
   }
@@ -70,6 +72,7 @@ section {
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-top: 260px;
   }
   .mob-menu-nav-list-item {
     color: #fff;
@@ -78,7 +81,7 @@ section {
     line-height: 1.14;
     letter-spacing: -0.28px;
   }
-  .mob-menu-nav-close-btn {
+  .mob-menu-close-btn {
     border: none;
     background-color: transparent;
     padding: 0;
@@ -87,7 +90,7 @@ section {
     top: 20px;
     right: 20px;
   }
-  .mob-menu-nav-close-btn-icon {
+  .mob-menu-close-btn-icon {
     fill: #fff;
   }
   .mobile-menu-btn-icon {
@@ -111,6 +114,12 @@ section {
     margin-top: 225px;
     margin-bottom: 32px;
     gap: 15px;
+  }
+  .mob-logo{
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    margin-top: 10px;
   }
 
   /* HERO */

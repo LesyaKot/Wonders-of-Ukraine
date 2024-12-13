@@ -1,5 +1,5 @@
-const button = document.querySelector('.burger-menu');
-const menu = document.querySelector('.mob-menu');
+const button = document.querySelector('.mobile-menu-btn');
+const menu = document.querySelector('.mobile-menu');
 
 button.addEventListener('click', () => {
   menu.classList.toggle('is-open');

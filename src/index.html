@@ -18,24 +18,67 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-     <body>
-<!-- HERO -->
+  <body>
+    <!-- HERO -->
+    <section class="hero-section">
+      <header class="header">
+        <div class="logo-cont">
+          <a class="logo" href="./index.html">
+            <svg class="icon-Logo" width="64" height="46">
+              <use href="./img/symbol-defs.svg#icon-Logo"></use>
+            </svg>
+          </a>
+        </div>
 
-      <section class="hero-section">
-        <header class="header">
+        <div class="nav-cont">
+          <nav class="page-nav">
+            <ul class="menu-nav">
+              <li class="menu-item">
+                <a class="menu-link" href="#about">About us</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#tours">Tours</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
-          <div class="logo-cont">
-            <a class="logo" href="./index.html">
-              <svg class="icon-Logo" width="64" height="46">
-                <use href="./img/symbol-defs.svg#icon-Logo"></use>
+        <div>
+          <!-- <a class="logo" href="./index.html">
+            <svg class="icon-Logo" width="64" height="46">
+              <use href="./img/symbol-defs.svg#icon-Logo"></use>
+            </svg>
+          </a> -->
+          <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-btn-icon" width="40" height="40">
+              <use href="./img/symbol-defs.svg#icon-Vector-2"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="mobile-menu">
+
+          <div class="container mobile-menu-cont">
+             <a class="mob-logo" href="./index.html">
+            <svg class="icon-Logo" width="64" height="46">
+              <use href="./img/symbol-defs.svg#icon-Logo"></use>
+            </svg>
+          </a>
+            <button class="mob-menu-close-btn" type="button">
+              <svg class="mob-menu-close-btn-icon" width="20" height="20">
+                <use href="./img/icon-close.svg#icon-cross"></use>
               </svg>
-            </a>
-          </div>
-
-          <div class="nav-cont">
-            <nav class="page-nav">
-              <ul class="menu-nav">
+            </button>
+            <nav class="mob-menu-nav">
+              <ul class="mob-menu-nav-list">
                 <li class="menu-item">
                   <a class="menu-link" href="#about">About us</a>
                 </li>
@@ -51,388 +94,575 @@
               </ul>
             </nav>
           </div>
+        </div>
+      </header>
 
-          <div>
-            <button class="mobile-menu-btn" type="button">
-              <svg class="mobile-menu-btn-icon" width="40" height="40">
-                <use href="./img/symbol-defs.svg#icon-Vector-2"></use>
+      <div class="container">
+        <h2 class="hero-title-small">Unlock the Wonders of</h2>
+        <h1 class="hero-title">Ukraine</h1>
+        <div class="hero-conteiner">
+          <button class="main-button" type="button">Our tours</button>
+        </div>
+      </div>
+
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            target="_blank"
+            href="https://www.instagram.com"
+          >
+            <svg class="social-list-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-ph_instagram-logo"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            class="social-list-link"
+            target="_blank"
+            href="https://www.facebook.com"
+          >
+            <svg class="social-list-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-ph_facebook-logo"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            class="social-list-link"
+            target="_blank"
+            href="https://www.telegram.com"
+          >
+            <svg class="social-list-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-ph_telegram-logo"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <main>
+      <!-- ABOUT US -->
+      <section class="about-section" id="about">
+        <h2 class="section-title">About us</h2>
+        <p class="about-text">
+          Welcome to our travel agency in Ukraine! We are a locally owned and
+          operated travel agency that specializes in creating unique and
+          unforgettable travel experiences for our clients. Our team of
+          experienced travel professionals is dedicated to providing
+          personalized service to help you plan your dream vacation. We have
+          extensive knowledge of Ukraine's culture, history, and geography,
+          which allows us to create customized itineraries that showcase the
+          best of our beautiful country.
+        </p>
+        <p class="about-text">
+          We are committed to providing our clients with exceptional customer
+          service and support throughout their travels. Our team is always
+          available to assist you with any questions or concerns you may have
+          before, during, and after your trip.
+        </p>
+        <p class="about-text">
+          Thank you for considering our travel agency for your travel needs. We
+          look forward to helping you plan an unforgettable vacation in Ukraine
+          or beyond!
+        </p>
+      </section>
+
+      <!-- OUR TOURS -->
+      <section class="tours-section">
+        <h2 class="section-title">Our tours</h2>
+        <div class="gallery-container">
+          <div class="gallery">
+            <div class="gallery-item">
+              <img
+                class="tours-img"
+                src="./img/bigsynevyr.png"
+                alt="Synevyr lake"
+              />
+              <h3 class="tours-title">Lake Synevyr and Shipit waterfall</h3>
+              <p class="text">
+                This very interesting excursion will introduce you to the most
+                beautiful lake of the Carpathians "Synevyr", the impressive and
+                magical waterfall lake Synevirm "Shypit", which is also located
+                in the Ukrainian Carpathians. You will have the opportunity to
+                try Soymivska and Kelechynska mineral springs, drinks and
+                delicious dishes of Carpathian cuisine and, of course, admire
+                the beautiful scenery of the unique Ukrainian Carpathians.
+              </p>
+              <p class="text">Included:</p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-directions_bus"></use>
+                </svg>
+                Transfer
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+                Travel insurance
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-face_4"></use>
+                </svg>
+                Professional guide
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
+                </svg>
+                Travel insurance
+              </p>
+            </div>
+
+            <div class="gallery-item">
+              <img class="tours-img" src="./img/house.png" alt="Old house" />
+              <h3 class="tours-title">Ancient History & Vibrant Present</h3>
+              <p class="text">
+                This charming old house tells a story of centuries past, nestled
+                in
+              </p>
+              <p class="text">Included:</p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-directions_bus"></use>
+                </svg>
+                Transfer
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+                Travel insurance
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-face_4"></use>
+                </svg>
+                Professional guide
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
+                </svg>
+                Travel insurance
+              </p>
+            </div>
+
+            <div class="gallery-item">
+              <img
+                class="tours-img"
+                src="./img/lakeandgreen.png"
+                alt="Black Sea"
+              />
+              <h3 class="tours-title">Black Sea Jewel</h3>
+              <p class="text">
+                TA tranquil escape, surrounded by verdant greenery
+              </p>
+              <p class="text">Included:</p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-directions_bus"></use>
+                </svg>
+                Transfer
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+                Travel insurance
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-face_4"></use>
+                </svg>
+                Professional guide
+              </p>
+              <p class="text-item">
+                <svg class="tours-svg" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
+                </svg>
+                Travel insurance
+              </p>
+            </div>
+          </div>
+
+          <button class="book-btn">Book</button>
+
+          <button class="arrow-left">
+            <svg class="arrow-icon-left" width="114" height="50">
+              <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
+            </svg>
+          </button>
+          <button class="arrow-right">
+            <svg class="arrow-icon-right" width="114" height="50">
+              <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="gallery-section">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-container">
+          <div class="gallery">
+            <img class="img" src="./img/winterforest.png" alt="Photo" />
+            <img class="img" src="./img/nightsky.png" alt="Photo" />
+            <img class="img" src="./img/trainroad.png" alt="Photo" />
+            <img class="img" src="./img/yaremche.png" alt="Photo" />
+            <img class="img" src="./img/synevyr.png" alt="Photo" />
+            <img class="img" src="./img/lake.png" alt="Photo" />
+            <img class="img" src="./img/rosewater.png" alt="Photo" />
+            <img class="img" src="./img/zamok.png" alt="Photo" />
+          </div>
+          <button class="arrow-left">
+            <svg class="arrow-icon-left" width="114" height="50">
+              <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
+            </svg>
+          </button>
+
+          <button class="arrow-right">
+            <svg class="arrow-icon-right" width="114" height="50">
+              <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
+            </svg>
+          </button>
+        </div>
+        <div></div>
+      </section>
+
+      <!-- REVIEWS -->
+      <section class="reviews-section">
+        <h2 class="reviews-title">Reviews</h2>
+
+        <div class="gallery-container">
+          <div class="gallery">
+            <ul class="reviews-list">
+              <li class="reviews-item">
+                <div class="rew-wrap">
+                  <div class="img-wrap">
+                    <img class="reviews-img" src="./img/Dmytro.png" />
+                  </div>
+                  <div class="name-wrap">
+                    <p class="reviews-name">Dmitro</p>
+                    <svg
+                      class="reviews-svg"
+                      width="136"
+                      height="24"
+                      viewBox="0 0 136 24"
+                    >
+                      <path
+                        d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z"
+                        fill="#AE990B"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p class="reviews-text">
+                  It was an incredible trip and I am very grateful to the
+                  organizers for the opportunity to learn more about our country
+                </p>
+              </li>
+
+              <li class="reviews-item">
+                <div class="rew-wrap">
+                  <div class="img-wrap">
+                    <img class="reviews-img" src="./img/Alisa.png" />
+                  </div>
+                  <div class="name-wrap">
+                    <p class="reviews-name">Alisa</p>
+                    <svg
+                      class="reviews-svg"
+                      width="136"
+                      height="24"
+                      viewBox="0 0 136 24"
+                    >
+                      <path
+                        d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z"
+                        fill="#AE990B"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p class="reviews-text">
+                  I really like to travel and try to do it as often as possible.
+                  The last one was to Lake Synevir and it was very cool, a great
+                  route, a comfortable bus, delicious food. I will definitely go
+                  somewhere else with you
+                </p>
+              </li>
+
+              <li class="reviews-item">
+                <div class="rew-wrap">
+                  <div class="img-wrap">
+                    <img class="reviews-img" src="./img/Marry.png" />
+                  </div>
+                  <div class="name-wrap">
+                    <p class="reviews-name">Marry</p>
+                    <svg
+                      class="reviews-svg"
+                      width="136"
+                      height="24"
+                      viewBox="0 0 136 24"
+                    >
+                      <path
+                        d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z"
+                        fill="#AE990B"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p class="reviews-text">
+                  Great tour. I really liked the atmosphere, professional
+                  approach and very interesting information
+                </p>
+              </li>
+
+              <li class="reviews-item">
+                <div class="rew-wrap">
+                  <div class="img-wrap">
+                    <img class="reviews-img" src="./img/Fedir.png" />
+                  </div>
+                  <div class="name-wrap">
+                    <p class="reviews-name">Fedir</p>
+                    <svg
+                      class="reviews-svg"
+                      width="136"
+                      height="24"
+                      viewBox="0 0 136 24"
+                    >
+                      <path
+                        d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z"
+                        fill="#AE990B"
+                      />
+                      <path
+                        d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z"
+                        fill="#AE990B"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p class="reviews-text">
+                  We traveled with a company and it was incredible, everyone
+                  without exception was satisfied and we will definitely go
+                  somewhere else with you and will recommend it to everyone
+                </p>
+              </li>
+            </ul>
+
+            <button class="arrow-left">
+              <svg class="arrow-icon-left" width="114" height="50">
+                <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
+              </svg>
+            </button>
+
+            <button class="arrow-right">
+              <svg class="arrow-icon-right" width="114" height="50">
+                <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
               </svg>
             </button>
           </div>
+        </div>
+      </section>
 
-          <div class="mobile-menu">
-            <div class="container mobile-menu-cont">
-              <button class="mob-menu-nav-close-btn" type="button">
-                <svg class="mob-menu-nav-close-btn-icon" width="28" height="28">
-                  <use href="./images/sprite.svg#icon-close"></use>
-                </svg>
-              </button>
-              <nav class="mob-menu-nav">
-                <ul class="mob-menu-nav-list">
-                  <li class="menu-item">
-                    <a class="menu-link" href="#about">About us</a>
-                  </li>
-                  <li class="menu-item">
-                    <a class="menu-link" href="#tours">Tours</a>
-                  </li>
-                  <li class="menu-item">
-                    <a class="menu-link" href="#gallery">Gallery</a>
-                  </li>
-                  <li class="menu-item">
-                    <a class="menu-link" href="#contacts">Contacts</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </header>
+      <!-- START TRAVEL -->
+      <section class="start-travel-section">
+        <div class="start-travel-container">
+          <h2 class="start-travel-title">Start travel</h2>
+          <p class="start-travel-text">
+            If you want to get an unforgettable trip, quickly fill out the
+            application and we will contact you during the day
+          </p>
+          <p class="start-travel-text">
+            We are ready to answer any questions and help choose the best tour
+          </p>
 
-        <div class="container">
-          <h2 class="hero-title-small">Unlock the Wonders of</h2>
-          <h1 class="hero-title">Ukraine</h1>
-          <div class="hero-conteiner">
-            <button class="main-button" type="button">Our tours</button>
-          </div>
+          <form
+            class="start-travel-form"
+            id="travelForm"
+            action="mailto:lesyakot@i.ua"
+            method="post"
+            enctype="text/plain"
+          >
+            <label class="start-travel-label" for="name">Name</label>
+            <input
+              class="start-travel-input"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              type="text"
+              required
+            />
+            <label class="start-travel-label" for="phone">Phone </label>
+            <input
+              class="start-travel-input"
+              id="phone"
+              name="phone"
+              placeholder="+380__-___-__-__"
+              required
+            />
+            <textarea
+              class="start-travel-textaria"
+              placeholder="Your message
+  "
+              type="text"
+            ></textarea>
+
+            <button class="start-travel-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="footer-section">
+        <div class="footer-logo-cont">
+          <a class="logo" href="./index.html">
+            <svg class="icon-Logo" width="127" height="90">
+              <use href="./img/symbol-defs.svg#icon-Logo"></use>
+            </svg>
+          </a>
         </div>
 
-        <ul class="social-list">
-          <li class="social-list-item">
-            <a class="social-list-link" target="_blank" href="https://www.instagram.com">
+        <div class="footer-nav-cont">
+          <nav class="page-nav">
+            <ul class="footer-menu-nav">
+              <li class="footer-menu-item">
+                <a class="menu-link" href="#about">About us</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#tours">Tours</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-contact-info">
+          <p
+            class="footer-contact-item"
+            href="tel:+38097-123-11-11"
+            rel="noopener noreferrer"
+          >
+            +38097-123-11-11
+          </p>
+          <a
+            class="footer-contact-item"
+            href="mailto:WondersOfUkraine@gmail.com"
+            >WondersOfUkraine@gmail.com</a
+          >
+          <address class="footer-contact-item">Lviv, Zaporyzhka, 198</address>
+        </div>
+
+        <ul class="footer-social-list">
+          <li class="footer-social-list-item">
+            <a
+              class="social-list-link"
+              target="_blank"
+              href="https://www.instagram.com"
+            >
               <svg class="social-list-icon" width="24" height="24">
                 <use href="./img/symbol-defs.svg#icon-ph_instagram-logo"></use>
               </svg>
             </a>
           </li>
-          <li>
-            <a class="social-list-link"  target="_blank" href="https://www.facebook.com">
+          <li class="footer-social-list-item">
+            <a
+              class="social-list-link"
+              target="_blank"
+              href="https://www.facebook.com"
+            >
               <svg class="social-list-icon" width="24" height="24">
                 <use href="./img/symbol-defs.svg#icon-ph_facebook-logo"></use>
               </svg>
             </a>
           </li>
-          <li>
-            <a class="social-list-link" target="_blank" href="https://www.telegram.com">
+          <li class="footer-social-list-item">
+            <a
+              class="social-list-link"
+              target="_blank"
+              href="https://www.telegram.com"
+            >
               <svg class="social-list-icon" width="24" height="24">
                 <use href="./img/symbol-defs.svg#icon-ph_telegram-logo"></use>
               </svg>
             </a>
           </li>
         </ul>
+        <p class="footer-text">© All Rights Reserved</p>
       </section>
+    </footer>
 
-<main>
-
-<!-- ABOUT US -->
-  <section class="about-section" id="about">
-    <h2 class="section-title">About us</h2>
-<p class="about-text">Welcome to our travel agency in Ukraine! We are a locally owned and operated travel agency that specializes in creating unique and unforgettable travel experiences for our clients. Our team of experienced travel professionals is dedicated to providing personalized service to help you plan your dream vacation. We have extensive knowledge of Ukraine's culture, history, and geography, which allows us to create customized itineraries that showcase the best of our beautiful country.</p>
-<p class="about-text">We are committed to providing our clients with exceptional customer service and support throughout their travels. Our team is always available to assist you with any questions or concerns you may have before, during, and after your trip.
-<p class="about-text">Thank you for considering our travel agency for your travel needs. We look forward to helping you plan an unforgettable vacation in Ukraine or beyond!</p>
-<p>
-</section>
-
-<!-- OUR TOURS -->
-<section class="tours-section">
-<h2 class="section-title">Our tours</h2>
-<div class="gallery-container">
-
-<div class="gallery">
-  <div class="gallery-item">
-    <img class="tours-img" src="./img/bigsynevyr.png" alt="Synevyr lake">
-    <h3 class="tours-title">Lake Synevyr and Shipit waterfall</h3>
-<p class="text">This very interesting excursion will introduce you to the most beautiful lake of the Carpathians "Synevyr", the impressive and magical waterfall lake Synevirm "Shypit", which is also located  in the Ukrainian Carpathians. You will have the opportunity to try Soymivska and Kelechynska mineral springs, drinks and delicious dishes of Carpathian cuisine and, of course, admire the beautiful scenery of the unique Ukrainian Carpathians.</p>
-<p class="text">Included:</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-directions_bus"></use>
-  </svg>Transfer</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-Vector"></use>
-  </svg>Travel insurance</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-face_4"></use>
-  </svg>Professional guide</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
-  </svg>Travel insurance</p>
-  </div>
-
-  <div class="gallery-item">
-    <img class="tours-img"src="./img/house.png" alt="Old house">
-    <h3 class="tours-title">Ancient History & Vibrant Present</h3>
-<p class="text">This charming old house tells a story of centuries past, nestled in</p>
-<p class="text">Included:</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-directions_bus"></use>
-  </svg>Transfer</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-Vector"></use>
-  </svg>Travel insurance</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-face_4"></use>
-  </svg>Professional guide</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
-  </svg>Travel insurance</p>
-  </div>
-
-  <div class="gallery-item">
-    <img class="tours-img" src="./img/lakeandgreen.png" alt="Black Sea">
-    <h3 class="tours-title">Black Sea Jewel</h3>
-<p class="text">TA tranquil escape, surrounded by verdant greenery</p>
-<p class="text">Included:</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-directions_bus"></use>
-  </svg>Transfer</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-Vector"></use>
-  </svg>Travel insurance</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-face_4"></use>
-  </svg>Professional guide</p>
-  <p class="text-item"><svg class="tours-svg" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-Vector-1"></use>
-  </svg>Travel insurance</p>
-  </div>
-</div>
-
-<button class="book-btn">Book</button>
-
-<button class="arrow-left">
-  <svg class="arrow-icon-left" width="114" height="50">
-    <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
-  </svg>
-</button>
-<button class="arrow-right">
-  <svg class="arrow-icon-right" width="114" height="50">
-    <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
-  </svg>
-</button>
-</div>
-</section>
-
-<!-- GALLERY -->
-<section class="gallery-section">
-<h2 class="section-title">Gallery</h2>
-<div class="gallery-container">
-  <div class="gallery">
-    <img class="img" src="./img/winterforest.png" alt="Photo 1">
-    <img class="img" src="./img/nightsky.png" alt="Photo 2">
-    <img class="img" src="./img/trainroad.png" alt="Photo 3">
-    <img class="img" src="./img/yaremche.png" alt="Photo 4">
-    <img class="img" src="./img/synevyr.png" alt="Photo 5">
-    <img class="img" src="./img/lake.png" alt="Photo 6">
-    <img class="img" src="./img/rosewater.png" alt="Photo 7">
-    <img class="img" src="./img/zamok.png" alt="Photo 8">
-  </div>
-  <button class="arrow-left">
-    <svg class="arrow-icon-left" width="114" height="50">
-      <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
-    </svg>
-  </button>
-
-  <button class="arrow-right">
-    <svg class="arrow-icon-right" width="114" height="50">
-      <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
-    </svg>
-  </button>
-</div>
-<div>
-</div>
-</section>
-
-<!-- REVIEWS -->
-<section class="reviews-section">
-  <h2 class="reviews-title">Reviews</h2>
-
-  <div class="gallery-container">
-    <div class="gallery">
-  <ul class="reviews-list">
-
-        <li class="reviews-item">
-      <div class="rew-wrap">
-<div class="img-wrap">
-  <img class="reviews-img" src="./img/Dmytro.png">
-</div>
-        <div class="name-wrap">
-          <p class="reviews-name">Dmitro</p>
-          <svg class="reviews-svg" width="136" height="24" viewBox="0 0 136 24">
-            <path d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z" fill="#AE990B"/>
-            <path d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z" fill="#AE990B"/>
-            <path d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z" fill="#AE990B"/>
-            <path d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z" fill="#AE990B"/>
-            <path d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z" fill="#AE990B"/>
-          </svg>
-        </div>
-      </div>
-      <p class="reviews-text">It was an incredible trip and I am very grateful to the organizers for the opportunity to learn more about our country</p>
-    </li>
-
-    <li class="reviews-item">
-      <div class="rew-wrap">
-        <div class="img-wrap">
-      <img class="reviews-img" src="./img/Alisa.png">
-    </div>
-    <div class="name-wrap">
-      <p class="reviews-name">Alisa</p>
-      <svg class="reviews-svg" width="136" height="24" viewBox="0 0 136 24">
-        <path d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z" fill="#AE990B"/>
-        <path d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z" fill="#AE990B"/>
-        <path d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z" fill="#AE990B"/>
-        <path d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z" fill="#AE990B"/>
-        <path d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z" fill="#AE990B"/>
-      </svg>
-    </div>
-    </div>
-      <p class="reviews-text">I really like to travel and try to do it as often as possible. The last one was to Lake Synevir and it was very cool, a great route, a comfortable bus, delicious food. I will definitely go somewhere else with you</p>
-    </li>
-
-    <li class="reviews-item">
-      <div class="rew-wrap">
-        <div class="img-wrap">
-      <img class="reviews-img" src="./img/Marry.png">
-      </div>
-      <div class="name-wrap">
-      <p class="reviews-name">Marry</p>
-      <svg class="reviews-svg" width="136" height="24" viewBox="0 0 136 24">
-        <path d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z" fill="#AE990B"/>
-        <path d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z" fill="#AE990B"/>
-        <path d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z" fill="#AE990B"/>
-        <path d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z" fill="#AE990B"/>
-        <path d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z" fill="#AE990B"/>
-      </svg>
-    </div>
-  </div>
-      <p class="reviews-text">Great tour. I really liked the atmosphere, professional approach and very interesting information</p>
-    </li>
-
-    <li class="reviews-item">
-      <div class="rew-wrap">
-        <div class="img-wrap">
-      <img class="reviews-img" src="./img/Fedir.png">
-        </div>
-        <div class="name-wrap">
-      <p class="reviews-name">Fedir</p>
-      <svg class="reviews-svg" width="136" height="24" viewBox="0 0 136 24">
-        <path d="M12 0L15.174 7.63131L23.4127 8.2918L17.1357 13.6687L19.0534 21.7082L12 17.4L4.94658 21.7082L6.8643 13.6687L0.587322 8.2918L8.82596 7.63131L12 0Z" fill="#AE990B"/>
-        <path d="M40 0L43.174 7.63131L51.4127 8.2918L45.1357 13.6687L47.0534 21.7082L40 17.4L32.9466 21.7082L34.8643 13.6687L28.5873 8.2918L36.826 7.63131L40 0Z" fill="#AE990B"/>
-        <path d="M68 0L71.174 7.63131L79.4127 8.2918L73.1357 13.6687L75.0534 21.7082L68 17.4L60.9466 21.7082L62.8643 13.6687L56.5873 8.2918L64.826 7.63131L68 0Z" fill="#AE990B"/>
-        <path d="M96 0L99.174 7.63131L107.413 8.2918L101.136 13.6687L103.053 21.7082L96 17.4L88.9466 21.7082L90.8643 13.6687L84.5873 8.2918L92.826 7.63131L96 0Z" fill="#AE990B"/>
-        <path d="M124 0L127.174 7.63131L135.413 8.2918L129.136 13.6687L131.053 21.7082L124 17.4L116.947 21.7082L118.864 13.6687L112.587 8.2918L120.826 7.63131L124 0Z" fill="#AE990B"/>
-      </svg>
-    </div>
-    </div>
-      <p class="reviews-text">We traveled with a company and it was incredible, everyone without exception was satisfied and we will definitely go somewhere else with you and will recommend it to everyone</p>
-    </li>
-  </ul>
-
-  <button class="arrow-left">
-    <svg class="arrow-icon-left" width="114" height="50">
-      <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
-    </svg>
-  </button>
-
-  <button class="arrow-right">
-    <svg class="arrow-icon-right" width="114" height="50">
-      <use href="./img/symbol-defs.svg#icon-Arrow-2"></use>
-    </svg>
-  </button>
-    </div>
-  </div>
-</section>
-
-<!-- START TRAVEL -->
-<section class="start-travel-section">
-<div class="start-travel-container">
-  <h2 class="start-travel-title">Start travel</h2>
-  <p class="start-travel-text">If you want to get an unforgettable trip, quickly fill out the application and we will contact you during the day</p>
-<p class="start-travel-text">We are ready to answer any questions and help choose the best tour</p>
-
-<form class="start-travel-form" id="travelForm" action="mailto:lesyakot@i.ua" method="post" enctype="text/plain">
-  <label class="start-travel-label" for="name">Name</label>
-    <input class="start-travel-input" id="name" name="name" placeholder="Enter your name"  type="text"  required>
-  <label class="start-travel-label" for="phone">Phone </label>
-<input class="start-travel-input" id="phone" name="phone" placeholder="+380__-___-__-__"  required>
-  <textarea class="start-travel-textaria" placeholder="Your message
-  " type="text"></textarea>
-
-  <button class="start-travel-btn" type="submit">Send</button>
-</form>
-</div>
-</section>
-</main>
-
-<footer>
-  <section class="footer-section">
-  <div class="footer-logo-cont">
-    <a class="logo" href="./index.html">
-      <svg class="icon-Logo" width="127" height="90">
-        <use href="./img/symbol-defs.svg#icon-Logo"></use>
-      </svg>
-    </a>
-  </div>
-
-  <div class="footer-nav-cont">
-    <nav class="page-nav">
-      <ul class="footer-menu-nav">
-        <li class="footer-menu-item">
-          <a class="menu-link" href="#about">About us</a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="#tours">Tours</a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="#gallery">Gallery</a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="#contacts">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="footer-contact-info">
-    <p class="footer-contact-item"  href="tel:+38097-123-11-11" rel="noopener noreferrer">+38097-123-11-11</p>
-    <a class="footer-contact-item" href="mailto:WondersOfUkraine@gmail.com">WondersOfUkraine@gmail.com</a>
-    <address class="footer-contact-item">
-      Lviv, Zaporyzhka, 198
-    </address>
-  </div>
-
-
-  <ul class="footer-social-list">
-    <li class="footer-social-list-item">
-      <a class="social-list-link" target="_blank" href="https://www.instagram.com">
-        <svg class="social-list-icon" width="24" height="24">
-          <use href="./img/symbol-defs.svg#icon-ph_instagram-logo"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="footer-social-list-item">
-      <a class="social-list-link"  target="_blank" href="https://www.facebook.com">
-        <svg class="social-list-icon" width="24" height="24">
-          <use href="./img/symbol-defs.svg#icon-ph_facebook-logo"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="footer-social-list-item">
-      <a class="social-list-link" target="_blank" href="https://www.telegram.com">
-        <svg class="social-list-icon" width="24" height="24">
-          <use href="./img/symbol-defs.svg#icon-ph_telegram-logo"></use>
-        </svg>
-      </a>
-    </li>
-  </ul>
-
-  <p class="footer-text">© All Rights Reserved</p>
-</section>
-</footer>
-<script type="module"
-src="./main.js"></script>
-<script type="module"
-src="./mob-menu-close.js"></script>
-<script type="module"
-src="./mob-menu-open.js"></script>
-</head>
-
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./mob-menu-close.js"></script>
+    <script type="module" src="./mob-menu-open.js"></script>
   </body>
 </html>
