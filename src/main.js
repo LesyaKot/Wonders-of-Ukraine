@@ -3,7 +3,9 @@ document.querySelectorAll('.gallery-container').forEach((container) => {
   const leftArrow = container.querySelector('.arrow-left');
   const rightArrow = container.querySelector('.arrow-right');
 
-  const scrollAmount = 375;
+  // const scrollAmount = 375;
+  const scrollAmount = 768;
+
 
   function updateArrowColors() {
     const scrollLeft = gallery.scrollLeft;
