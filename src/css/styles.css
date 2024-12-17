@@ -905,4 +905,179 @@ section {
   .arrow-right.active .arrow-icon-right {
     fill: #fafafa;
   }
+
+  /* START TRAVEL TABLET */
+  .start-travel-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(/src/img/grass@2x.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 602px 786px;
+  }
+  .start-travel-container {
+    background-color: #141a19;
+    padding: 49px 69px;
+    width: 700px;
+    height: 516px;
+    margin-left: 32px;
+    gap: 0px;
+    border-radius: 4px;
+    border: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .start-text-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .start-travel-title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-bottom: 24px;
+    color: #fafafa;
+  }
+  .start-travel-text {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 24px;
+  }
+  .start-travel-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 320px;
+    height: 378px;
+  }
+  .start-travel-label {
+    font-family: Jomolhari;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: #fafafa;
+  }
+  .start-travel-input {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #141a19;
+    border: 1px solid #ffffff;
+    color: #fafafa;
+    width: 320px;
+    height: 83px;
+  }
+  .start-travel-textaria {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 12px;
+    width: 343px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    background-color: #141a19;
+    color: #fafafa;
+    width: 320px;
+  }
+  .start-travel-btn {
+    width: 320px;
+    height: 54px;
+    padding: 16px 53px 16px 53px;
+    border-radius: 4px;
+    border: none;
+    background-color: #394014;
+    color: #fafafa;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 32px;
+    margin-bottom: 39px;
+  }
+
+  /* FOOTER  TABLET*/
+   .footer-section {
+    /* padding-top: 80px; */
+    margin-left: 32px;
+    margin-right: 32px;
+   }
+   .footer-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+  .footer-logo-cont {
+    margin-top: 32px;
+  }
+  .footer-menu-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+  .footer-contact-info-wrap{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-menu-item {
+    font-family: Jomolhari;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fafafa;
+  }
+  .footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+  .footer-contact-item {
+    font-family: Jomolhari;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fafafa;
+    font-style: normal;
+  }
+  .footer-social-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 64px;
+  }
+  .footer-text {
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 16px;
+  }
 }
