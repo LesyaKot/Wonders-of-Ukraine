@@ -113,7 +113,7 @@ section {
     margin-bottom: 32px;
     gap: 15px;
   }
-  .mob-logo{
+  .mob-logo {
     position: absolute;
     top: 5px;
     left: 16px;
@@ -527,7 +527,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap:8px;
+    gap: 8px;
     margin-bottom: 32px;
   }
   .footer-menu-item {
@@ -539,13 +539,13 @@ section {
     text-align: left;
     color: #fafafa;
   }
-  .footer-contact-info{
+  .footer-contact-info {
     display: flex;
     flex-direction: column;
-    gap:8px;
+    gap: 8px;
     margin-bottom: 32px;
   }
-  .footer-contact-item{
+  .footer-contact-item {
     font-family: Jomolhari;
     font-size: 16px;
     font-weight: 400;
@@ -555,19 +555,18 @@ section {
     color: #fafafa;
     font-style: normal;
   }
-  .footer-social-list{
+  .footer-social-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15px;
     margin-bottom: 64px;
   }
-  .footer-text{
+  .footer-text {
     color: #fafafa;
     text-align: center;
     margin-bottom: 16px;
   }
-
 }
 
 @media screen and(min-width:480px) {
@@ -584,7 +583,7 @@ section {
 /* TABLET */
 @media screen and (min-width: 768px) {
   .menu-nav {
-    display:flex;
+    display: flex;
   }
   .mobile-menu-btn {
     display: none;
@@ -594,5 +593,77 @@ section {
   }
   .mobile-menu {
     display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 16px;
+    align-items: center;
+  }
+  .menu-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .social-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 135px;
+    margin-bottom: 64px;
+    margin-right: 32px;
+    gap: 15px;
+  }
+    /* HERO */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 812px;
+    background-image: url(/src/img/forest@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-title-small {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 67.2px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    width: 468px;
+    height: 134px;
+    margin-top: 318px;
+    margin-left: 178px;
+    color: #fafafa;
+  }
+  .hero-title {
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 179.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 178px;
+    color: #fafafa;
+    width: 468px;
+    height: 179px;
+    top: 410px;
+    left: 178px;
+  }
+  .main-button {
+    width: 174px;
+    height: 54px;
+    margin-top: 64px;
+    margin-left: 325px;
+    border-radius: 4px;
+    border: none;
+    background-color: #394014;
+    color: #fafafa;
   }
 }
