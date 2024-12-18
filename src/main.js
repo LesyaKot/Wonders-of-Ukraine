@@ -5,6 +5,8 @@ document.querySelectorAll('.gallery-container').forEach((container) => {
 
   // const scrollAmount = 375;
   const scrollAmount = 768;
+  // const scrollAmount = 1440;
+
 
 
   function updateArrowColors() {
