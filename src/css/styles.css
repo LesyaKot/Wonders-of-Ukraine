@@ -1374,9 +1374,189 @@ section {
     margin-left: auto;
     margin-right: auto;
   }
-  .hero-conteiner{
+  .hero-conteiner {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  /* ABOUT DESKTOP */
+  .about-section {
+    background-color: #141a19;
+    background-image: url(/src/img/border.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 100px 208px;
+    margin: 0;
+  }
+  .section-title {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 89.6px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 64px;
+    color: #fafafa;
+  }
+  .about-text {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 32px;
+    width: 369px;
+  }
+  .about-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  /* TOURS DESKTOP */
+  .gallery-container {
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    gap: 32px;
+  }
+  .tours-section {
+    background-image: url('/src/img/koloso.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+  }
+  .tours-img {
+    width: 900px;
+    height: 515px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:none;
+    margin-bottom: 42px;
+  }
+  .gallery-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:900px;
+    box-sizing: border-box;
+  }
+  .tours-img:hover {
+    transform: none;
+  }
+  .tours-title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 24px;
+    color: #fafafa;
+    margin-left: 32px;
+  }
+  .tours-svg {
+    margin-right: 16px;
+  }
+  .tours-text-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 0;
+    height: 496px;
+  }
+  .text-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fafafa;
+    width: 496px;
+  }
+  .text-item {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fafafa;
+    margin-left: 16px;
+    align-items: center;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+  }
+  .text,
+  .text-item,
+  .tours-title {
+    max-width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-left: 32px;
+  }
+  .book-btn {
+    left: 32px;
+    width: 169px;
+    height: 54px;
+    padding: 16px 52px 16px 52px;
+    gap: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #394014;
+    color: #fafafa;
+    margin-left: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0;
+  }
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: 32px;
+  }
+  .arrow-left {
+    left: 10px;
+    transform: none;
+  }
+  .arrow-right {
+    right: 10px;
+    transform: scaleX(-1);
+  }
+  .arrow-icon-left,
+  .arrow-icon-right {
+    fill: #5a5959;
+    transition: fill 0.3s ease;
+  }
+  .arrow-left.active .arrow-icon-left {
+    fill: #fafafa;
+  }
+  .arrow-right.active .arrow-icon-right {
+    fill: #fafafa;
   }
 }
