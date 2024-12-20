@@ -1276,7 +1276,8 @@ section {
     display: flex;
     flex-direction: column;
     min-height: 800px;
-    background-image: url(/src/img/forest@2x.png);
+    /* background-image: url(/src/img/forest@2x.png); */
+    background-image: url('./img/forest@2x.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
@@ -1559,7 +1560,7 @@ section {
   }
   /* REVIEWS DESKTOP */
 
-  /* START TRAVEL TABLET */
+  /* START TRAVEL DESKTOP */
   .start-travel-section {
     padding-top: 100px;
     padding-bottom: 100px;
