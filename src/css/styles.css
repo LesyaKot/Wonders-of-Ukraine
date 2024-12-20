@@ -38,21 +38,21 @@ section {
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .hero-section {
-    background-image: url(/src/img/forest.png);
+    background-image: url(/img/forest.png);
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-wdth: 768px),
   screen and (min-resolution: 2dppx) and (min-wdth: 768px),
   screen and (min-device-pixel-ratio: 2) and(min-wdth:768px) {
   .hero-section {
-    background-image: url(/src/img/forest@2x.png);
+    background-image: url(/img/forest@2x.png);
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-wdth: 1158px),
   screen and (min-resolution: 2dppx) and (min-wdth: 1158px),
   screen and (min-device-pixel-ratio: 2) and(min-wdth:1158px) {
   .hero-section {
-    background-image: url(/src/img/forest@2x.png);
+    background-image: url(/img/forest@2x.png);
   }
 }
 
@@ -70,7 +70,7 @@ section {
     width: 100%;
     height: 100%;
     /* background-color: #1e1823; */
-    background-image: url(/src/img/mobmenuimage.png);
+    background-image: url(/img/mobmenuimage.png);
     z-index: 99999999;
     transform: translateX(100%);
     transition: transform 250ms linear;
@@ -147,7 +147,7 @@ section {
     display: flex;
     flex-direction: column;
     min-height: 812px;
-    background-image: url(/src/img/forest.png);
+    background-image: url(/img/forest.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
@@ -225,7 +225,7 @@ section {
     background-color: #141a19;
     padding-left: 16px;
     padding-right: 16px;
-    background-image: url(/src/img/border.png);
+    background-image: url(/img/border.png);
     background-repeat: no-repeat;
   }
   .section-title {
@@ -309,7 +309,7 @@ section {
 
   /* TOURS */
   .tours-section {
-    background-image: url('/src/img/koloso.png');
+    background-image: url('/img/koloso.png');
     background-position: 10px bottom;
     background-repeat: no-repeat;
   }
@@ -463,7 +463,7 @@ section {
   .start-travel-section {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-image: url(/src/img/grass.png);
+    background-image: url(/img/grass.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
@@ -666,7 +666,7 @@ section {
     display: flex;
     flex-direction: column;
     min-height: 812px;
-    background-image: url(/src/img/forest@2x.png);
+    background-image: url(/img/forest@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
@@ -750,7 +750,7 @@ section {
     background-color: #141a19;
     padding-left: 32px;
     padding-right: 32px;
-    background-image: url(/src/img/border.png);
+    background-image: url(/img/border.png);
     background-repeat: no-repeat;
   }
   .section-title {
@@ -794,7 +794,7 @@ section {
     align-items: center;
   }
   .tours-section {
-    background-image: url('/src/img/koloso.png');
+    background-image: url('/img/koloso.png');
     background-position: 10px bottom;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -1057,7 +1057,7 @@ section {
   .start-travel-section {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url(/src/img/grass@2x.png);
+    background-image: url(/img/grass@2x.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 602px 786px;
@@ -1367,7 +1367,7 @@ section {
   /* ABOUT DESKTOP */
   .about-section {
     background-color: #141a19;
-    background-image: url(/src/img/border.png);
+    background-image: url(/img/border.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -1416,7 +1416,7 @@ section {
     gap: 32px;
   }
   .tours-section {
-    background-image: url('/src/img/koloso.png');
+    background-image: url('/img/koloso.png');
     background-position: right bottom;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -1564,7 +1564,7 @@ section {
   .start-travel-section {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url(/src/img/grass@2x.png);
+    background-image: url(/img/grass@2x.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 602px 786px;
