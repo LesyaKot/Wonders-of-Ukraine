@@ -1,6 +1,9 @@
-const closeButton = document.querySelector('.mob-menu-close-btn');
-const menu = document.querySelector('.mobile-menu');
-
 closeButton.addEventListener('click', () => {
-  menu.classList.toggle('is-open');
+  menu.classList.remove('is-open');
+});
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('is-open');
+  });
 });
